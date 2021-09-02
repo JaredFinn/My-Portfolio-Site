@@ -1,0 +1,17 @@
+.nav-component{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+    background-color: rgba(102, 102, 102, 0.8);
+    transition: all .2s ease;
+    border: 1px solid;
+
+    h1{
+        margin: 10px;
+    }
+}
+
+.nav-component:hover{
+    transform: scaleY(1.4);
+    background-color: rgba(204, 204, 204, 0.8);
+}
