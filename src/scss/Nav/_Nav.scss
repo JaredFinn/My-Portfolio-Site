@@ -1,9 +1,8 @@
 .nav-component{
     margin: 0;
     padding: 0;
-    display: flexbox;
     background-color: rgba(102, 102, 102, 0.8);
-    transition: all .2s ease;
+    transition: all 1s ease-in-out;
     border: 1px solid;
 
     h1{
@@ -12,6 +11,6 @@
 }
 
 .nav-component:hover{
-    transform: scaleY(1.4);
     background-color: rgba(204, 204, 204, 0.8);
+    padding: 2rem 0;
 }
